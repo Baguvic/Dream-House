@@ -1,0 +1,520 @@
+:root{
+    --pr-color-- :#00985B;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #D3F3DC;
+}
+
+/* Style Navbar */
+
+.navbar{
+    z-index: 3;
+}
+*{
+    z-index: 2;
+}
+.img-bulat{
+    z-index: 1;
+}
+.img-hero{
+    z-index: 1;
+}
+.navbar.navbar-expand-lg{
+    background-color: #183119;
+    width: 100%;
+    
+}
+
+.nav-color{
+    background-color: #183119;
+    transition: all ease-in-out 0.3s;
+}
+
+.bg-transparent{
+    transition: all ease-in-out 0.3s;
+}
+
+.navbar-brand{
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffff;
+}
+
+.nav-link{
+    font-size: 16px;
+    color: #ffff;
+}
+
+.nav-link.active{
+    font-weight: 700;
+    color: #ffff;
+}
+
+.button-secondary{
+    width: 133px;
+    height: 40px;
+    background-color: floralwhite;
+    color: #183119;
+    border: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.button-primary{
+    width: 133px;
+    height: 40px;
+    background-color: transparent;
+    color: #ffff;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Style Hero */
+
+#Hero{
+    background:linear-gradient(160deg, var(--pr-color--), #000);
+    height: 100vh;
+    width: 100%;
+}
+
+.img-hero{
+    height: 100%;
+}
+
+.hero-tagline h1{
+    color: #ffff;
+    font-weight: 700px;
+    font-size: 50px;
+    line-height: 75px;
+
+}
+
+.hero-tagline p{
+    font-size: 16px;
+    color: #ffff;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    line-height: 25px;
+    width: 90%;
+
+}
+
+.button-lg-primary{
+    width: 200px;
+    height: 70px;
+    background-color: #ffff;
+    border-radius: 10px;
+    border-color: #ffff;
+    color: #183119;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+/* Layanan Section */
+
+#Layanan{
+    padding: 80px 0;
+}
+
+h2{
+    font-size: 48px;
+    font-weight: 500;
+    color: #183119;
+}
+
+.Sub-tittle{
+    font-size: 18px;
+    color: #000;
+}
+
+.card-layanan{
+    width: 100%;
+    height: 313px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+}
+
+.cirlce-icon {
+    width: 70px;
+    height: 70px;
+    background-color: #183119;
+    border-radius: 50%;
+}
+
+.card-layanan h3{
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+}
+
+.card-layanan p{
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+/* Hover */
+
+.card-layanan:hover{
+    width: 100%;
+    height: 313px;
+    border-radius: 10px;
+    background:linear-gradient(160deg, var(--pr-color--), #000);
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+}
+
+.cirlce-icon:hover{
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.card-layanan h3:hover{
+    color: #fff;
+    font-size: 24px;
+}
+
+.card-layanan p:hover{
+    color: #fff;
+    font-size: 14px;
+}
+
+/* Seacrh Section */
+
+#Search{
+    background-image: url(../gambar/icon/searchbackground.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Search h2{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0em;
+    color: #fff;
+
+}
+
+#Search p{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    color: #fff;
+
+}
+
+.input-cari{
+    height: 88px;
+}
+
+.input-cari:focus{
+    border: none;
+}
+
+.input-cari .button-secondary{
+    width: 200px;
+    height: 88px;
+    background-size: rgba(255,255,255,0.8);
+    color: #183119;
+    font-weight: 500;
+    border: none;
+    border-radius: 0 0 0 10px;
+}
+
+.input-cari .button-primary{
+    height: 88px;
+    background-color: var(--pr-color--);
+    color: #fff;
+    border: none;
+    font-size: 32px;
+    font-weight: 500;
+    border-radius: 0 10px 0 10px;
+}
+
+.nav-tabs{
+    border: none;
+}
+
+.nav-tabs .nav-link{
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 0 0 0 0;
+}
+
+.nav-tabs .nav-link.active{
+    background-color: rgba(255,255,255,0.8);
+    color: var(--pr-color--);
+    border-radius: 0 9px 0 0;
+    font-weight: 500;
+}
+
+.nav-tabs .nav-link{
+    color: #000;
+    border: none;
+}
+
+/* Seacrh Rekomendasi */
+
+.card{
+    height: 440px;
+    width: 90%;
+    border: none;
+}
+
+.card-body h4{
+    color: #000;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: .8rem;
+}
+
+.card-body p{
+    color: #707070;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.card:hover{
+    background:linear-gradient(160deg, var(--pr-color--), #007245, #007245, #000);
+    box-shadow: rgba(0, 0, 0, .25);
+    transition: all ease-in-out .3s;
+}
+
+.card:hover .card-body h4{
+    color: #ffff;
+    transition: all ease-in-out .3s;
+}
+
+.card:hover .card-body p{
+    color: #ffff;
+    transition: all ease-in-out .3s;
+}
+
+.card-fasilitas{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 10px;
+    background-color: #ffff;
+}
+
+.card-fasilitas span{
+    font-weight: 500;
+    margin-top: 18px;
+    color: #000;
+}
+
+.card-fasilitas p {
+    font-size: 12px;
+    color: #000;
+}
+
+/* Card Fasilitas */
+
+.button-fitur{
+    width: 242px;
+    height: 74px;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    background-color: var(--pr-color--);
+    color: #ffff;
+}
+
+#Fitur h2{
+    font-size: 48px;
+    font-weight: 500;
+    color: var(--pr-color--);
+}
+
+.card-fitur h5{
+    font-size: 36px;
+    font-weight: 600;
+    color: #fff;
+
+}
+
+.card-fitur span{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.card-fitur h6{
+    font-size: 32px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.card-fitur button{
+    width: 173px;
+    height: 53px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    background-color: var(--pr-color--);
+    border: none;
+}
+
+.card-fitur .overlay{
+    background-color:rgba(0, 0, 0, 0);
+    opacity: 0;
+    transition: all ease-in-out .4s;
+}
+
+.card-fitur .overlay:hover{
+    background-color:rgba(0, 0, 0, .6);
+    opacity: 1;
+}
+
+.Left-arrow{
+    width: 61px;
+    height: 61px;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--pr-color--);
+    padding: 0;
+}
+
+.Right-arrow{
+    width: 61px;
+    height: 61px;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--pr-color--);
+    padding: 0;
+}
+
+/* Conract Section */
+
+#Contact{
+    background-image: url(../gambar/icon/overlay.png);
+    margin-top: 158px;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#Contact .container{
+    padding: 148px 0 148px 0;
+}
+
+#Contact h3{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 54px;;
+    color: #fff;
+}
+
+#Contact h6{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    color: #fff;
+}
+
+.kontak h6{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    margin: 16px 0 14px 0;
+}
+
+.kontak a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-left: 18px;
+
+}
+
+.linkrumah{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+.card-contact{
+    height: 421px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 45px 35px;
+
+}
+
+.card-contact h2{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color:var(--pr-color--);
+    margin-bottom: 21px;
+}
+
+.form-control{
+    height: 59px;
+    background: #afafaf !important;
+}
+
+.form-floating label{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(59, 59, 59, 0.46);
+    }
+
+.button-kirim{
+    width: 100%;
+    height: 59px;
+    background-color: var(--pr-color--);
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    border: none;
+}
+
+footer{
+    width: 100%;
+    height: 270px;
+    background-color: #000;
+}
+
+.copyright{
+    bottom: 2%;
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 18px;
+}
+
+footer a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
